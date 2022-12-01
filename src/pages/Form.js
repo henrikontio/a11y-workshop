@@ -4,43 +4,43 @@ import { Helmet } from 'react-helmet';
 
 const TextInput = ({ name, value, label, onChange }) => {
   return (
-    <div className={'input text-input'}>
-      <span className={'text-input-label'}>{label}:</span>
+    <label className={'input text-input'}>
+      <span className={'text-input-label'}>{label}</span>
       <input type={'text'} name={name} onChange={onChange} value={value}/>
-    </div>
+    </label>
   );
 };
 
 const RadioGroupInput = ({ name, label, value, onChange, options }) => {
   return (
-    <div className={'input radio-input'}>
-      <span className={'radio-input-label'}>{label}</span>
+    <fieldset className={'input radio-input'}>
+      <legend className={'radio-input-label'}>{label}</legend>
       {options?.map(o => {
         return (
           <div key={o}>
-            <input type={'radio'} checked={value === o} value={o} onChange={onChange} name={name} />
-            <span className={'radio-input-label'}>{o}</span>      
+            <input id={`${name}-${o}`} type={'radio'} checked={value === o} value={o} onChange={onChange} name={name} />
+            <label htmlFor={`${name}-${o}`} className={'radio-input-label'}>{o}</label>      
           </div>
         )
       })}
-    </div>
+    </fieldset>
   )
 };
 
 const CheckboxInput = ({ name, label, value, onChange }) => {
   return (
-    <div className={'input checkbox-input'}>
+    <label className={'input checkbox-input'}>
       <span className={'checkbox-input-label'}>{label}</span>
       <input type={'checkbox'} checked={value} onChange={onChange} name={name} />
-    </div>
+    </label>
   )
 };
 
 const SelectInput = ({ name, label, value, onChange, options }) => {
   return (
     <div className={'input selet-input'}>
-      <span className={'select-input-label'}>{label}:</span>
-      <select name={name} value={value} onChange={onChange}>
+      <label htmlFor={name} className={'select-input-label'}>{label}:</label>
+      <select id={name} name={name} value={value} onChange={onChange}>
       {options?.map(o => {
         return (
           <option key={o} value={o}>{o}</option>
@@ -103,7 +103,8 @@ const Form = () => {
         <hr />
         <SelectInput name={'favAnimal'} onChange={onChange} label={'What\'s your favourite animal?'} value={form.favAnimal} options={selectOptions} />
         <button type={'button'} className={'button'} onClick={onSubmit}>
-          <img src={arrowRight} className={'button-icon'} />
+          Submit form
+          <img alt={'arrow pointing right'} src={arrowRight} className={'button-icon'} />
         </button>
       </div>
       <Helmet>

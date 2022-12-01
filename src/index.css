@@ -96,22 +96,21 @@ img {
 }
 
 .text-input-label {
-  flex: 0 0 20%;
+  flex-basis: 20%;
 }
 
 input, select {
-  outline: 0;
   padding: 0.5em;
 }
 
 .button {
+  align-items: center;
   background-color: darkgreen;
   border-radius: 0.5em;
   border: 0.06125em solid lawngreen; 
   color: lawngreen;
-  display: inline-block;
+  display: inline-flex;
   padding: 0.5em;
-  outline: 0;
 }
 
 .button-icon {

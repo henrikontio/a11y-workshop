@@ -2,7 +2,7 @@ import React from 'react';
 
 const Front = () => {
   return (
-    <div className={'main-content'}>
+    <main className={'main-content'}>
       <h3>Welcome to a11y workshop</h3>
       
       <p>Some things we're going through today:</p>
@@ -43,7 +43,7 @@ const Front = () => {
         Nullam vestibulum consequat nibh, vel sagittis diam euismod sed. Quisque ullamcorper nulla sit amet mauris
         rhoncus viverra. Morbi pellentesque urna nec metus varius luctus. Quisque vel aliquet sapien, a iaculis est.
         Donec luctus erat et tempus accumsan.</p>
-    </div>
+    </main>
   );
 };
 

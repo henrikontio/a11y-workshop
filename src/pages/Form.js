@@ -82,7 +82,7 @@ const Form = () => {
   const selectOptions = ['Horse 🐎', 'Frog 🐸', 'Lizard 🦎'];
 
   return (
-    <div className={'main-content'}>
+    <main className={'main-content'}>
       <h3>Signup for your life's best opportunity</h3>
       <p>Nullam sit amet libero ac lacus molestie sodales eu id nibh. Integer sodales est est, eget auctor neque
         venenatis sit amet. Mauris vehicula lorem sed ante semper hendrerit. Ut rutrum porttitor magna, eu tincidunt
@@ -109,7 +109,7 @@ const Form = () => {
       <Helmet>
         <title>a11y workshop signup form</title>
       </Helmet>
-      </div>
+      </main>
   );
 };
 

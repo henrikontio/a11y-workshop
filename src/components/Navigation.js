@@ -3,10 +3,10 @@ import { Link } from 'react-router-dom';
 
 const Navigation = () => {
   return (
-    <div className={'navigation'}>
+    <nav className={'navigation'}>
       <Link className={'nav-item'} to={'/form'}>Signup form</Link>
       <Link className={'nav-item'} to={'/info'}>Information</Link>
-    </div>
+    </nav>
   )
 };
 

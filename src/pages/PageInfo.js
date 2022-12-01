@@ -18,7 +18,7 @@ const Article = ({ title, ingress, additionalText }) => {
 
 const Page = () => {
   return (
-    <div className={'main-content'}>
+    <main className={'main-content'}>
       <h3>
         Welcome to informative page
       </h3>
@@ -37,7 +37,7 @@ const Page = () => {
         ingress={'Sed ultricies commodo dolor vitae sagittis. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.'}
         additionalText={'Integer non accumsan sem. Etiam laoreet a orci vulputate mattis. Duis nec elementum metus. Nam pulvinar id est auctor congue. Ut nulla ligula, euismod ut orci vitae, sagittis tempus est. Duis mollis nulla lectus, a bibendum est facilisis in. In non commodo purus, et tristique diam. Interdum et malesuada fames ac ante ipsum primis in faucibus. Vivamus malesuada dolor nec tortor euismod, gravida elementum enim pulvinar. Cras eu nulla eu nunc facilisis eleifend quis et risus. Proin vel varius elit. Aliquam sed interdum enim, id aliquam risus. Suspendisse potenti.'}
       />
-    </div>
+    </main>
   );
 };
 

@@ -36,17 +36,24 @@ code {
   align-items: center;
 }
 
-.app-header .app-heading {
+.app-header {
   margin: 0;
   flex: 0 0 auto;
 }
 
-.app-header-logo {
-  margin-right: 2em;
-  outline: 0;
+.app-heading {
+  color: #222;
+  font-size: 2em;
+  margin: 0 0.5em;
 }
 
-.app-header-logo * {
+.app-header-logo {
+  display: flex;
+  margin-right: 2em;
+  text-decoration: none;
+}
+
+.app-header-logo svg {
   height: 3em;
   width: 3em;
 }
@@ -74,10 +81,13 @@ img {
 }
 
 .nav-item {
-  color: #888;
+  color: #222;
   padding: 0.5em;
-  outline: 0;
   text-decoration: none;
+}
+
+.nav-item:active {
+  text-decoration: underline;
 }
 
 .text-input {

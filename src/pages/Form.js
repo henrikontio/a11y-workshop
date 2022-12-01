@@ -92,7 +92,7 @@ const Form = () => {
         lobortis. Praesent at enim dapibus, imperdiet purus quis, suscipit odio. Etiam at diam suscipit, egestas ante
         ac, auctor orci. Curabitur a pharetra massa, vel tempus nibh. Integer iaculis leo ac nunc commodo volutpat.
         Integer auctor, risus sit amet luctus consequat, est neque commodo sem, nec tristique quam nibh eget mi.</p>
-      <div>
+      <form>
         <TextInput name={'name'} value={form.name} onChange={onChange} label={'Name'}/>
         <TextInput name={'age'} value={form.age} onChange={onChange} label={'Age'}/>
         <TextInput name={'city'} value={form.city} onChange={onChange} label={'City'}/>
@@ -106,7 +106,7 @@ const Form = () => {
           Submit form
           <img alt={'arrow pointing right'} src={arrowRight} className={'button-icon'} />
         </button>
-      </div>
+      </form>
       <Helmet>
         <title>a11y workshop signup form</title>
       </Helmet>

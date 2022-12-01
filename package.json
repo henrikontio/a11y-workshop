@@ -38,6 +38,7 @@
     ]
   },
   "devDependencies": {
-    "@axe-core/react": "^4.5.2"
+    "@axe-core/react": "^4.5.2",
+    "jest-axe": "^7.0.0"
   }
 }

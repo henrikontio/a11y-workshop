@@ -19,9 +19,9 @@ const Article = ({ title, ingress, additionalText }) => {
 const Page = () => {
   return (
     <main className={'main-content'}>
-      <h3>
+      <h2>
         Welcome to informative page
-      </h3>
+      </h2>
       <Article
         title={'Cool article about boring stuff!'}
         ingress={'Sed ultricies commodo dolor vitae sagittis. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.'}

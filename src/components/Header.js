@@ -7,7 +7,7 @@ const Header = ({ children }) => {
     <header className={'app-header'}>
       <Link className={'app-header-logo'} to={'/'}>
         <Logo />
-        <h3 className={'app-heading'}>a11y Portal</h3>
+        <h1 className={'app-heading'}>a11y Portal</h1>
       </Link>
       {children && children}
     </header>

@@ -83,7 +83,7 @@ const Form = () => {
 
   return (
     <main className={'main-content'}>
-      <h3>Signup for your life's best opportunity</h3>
+      <h2>Signup for your life's best opportunity</h2>
       <p>Nullam sit amet libero ac lacus molestie sodales eu id nibh. Integer sodales est est, eget auctor neque
         venenatis sit amet. Mauris vehicula lorem sed ante semper hendrerit. Ut rutrum porttitor magna, eu tincidunt
         risus convallis non. Fusce massa nulla, tincidunt at aliquet non, rutrum sit amet lectus. Morbi posuere orci

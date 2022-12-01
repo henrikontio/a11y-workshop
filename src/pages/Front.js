@@ -3,7 +3,7 @@ import React from 'react';
 const Front = () => {
   return (
     <main className={'main-content'}>
-      <h3>Welcome to a11y workshop</h3>
+      <h2>Welcome to a11y workshop</h2>
       
       <p>Some things we're going through today:</p>
       <p>
@@ -24,7 +24,7 @@ const Front = () => {
       <img src={'https://picsum.photos/700/300?random=1'} />
       <span className={'img-caption'}>This image is really cool.</span>
 
-      <h5>The next section is super interesting for you.</h5>
+      <h3>The next section is super interesting for you.</h3>
 
       <p>Fusce suscipit lacus turpis, ut posuere elit tempor sit amet. Phasellus cursus porttitor scelerisque. Fusce
         pharetra dui a porttitor ultrices. Curabitur ac sapien ante. Quisque varius nec lectus quis ultricies. Donec

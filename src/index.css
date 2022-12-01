@@ -129,3 +129,7 @@ input, select {
 .show-more-btn {
   color: #222;
 }
+
+figure {
+  margin: 0;
+}

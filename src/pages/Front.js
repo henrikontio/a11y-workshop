@@ -21,8 +21,10 @@ const Front = () => {
         malesuada quam, ut iaculis metus molestie eget. Nullam vel lorem non magna congue interdum ut eu diam. Cras
         dapibus massa non consectetur sodales. Duis egestas rhoncus eleifend.</p>
       
-      <img src={'https://picsum.photos/700/300?random=1'} />
-      <span className={'img-caption'}>This image is really cool.</span>
+      <figure>
+        <img src={'https://picsum.photos/700/300?random=1'} alt={'This is a random image, but here would be some info about it'} />
+        <figcaption className={'img-caption'}>This image is really cool.</figcaption>
+      </figure>
 
       <h3>The next section is super interesting for you.</h3>
 
@@ -33,8 +35,10 @@ const Front = () => {
         eu hendrerit. In ornare dapibus ipsum, sed scelerisque erat ornare id. Aenean ut lorem imperdiet, vehicula sem
         id, posuere sapien.</p>
 
-      <img src={'https://picsum.photos/700/300?random=2'} />
-      <span className={'img-caption'}>This one too though it's random.</span>
+      <figure>
+        <img src={'https://picsum.photos/700/300?random=2'} alt={'In this image you could see cool stuff, maybe?'} />
+        <figcaption className={'img-caption'}>This one too though it's random.</figcaption>
+      </figure>
 
       <p>Nullam tincidunt sodales felis sed sagittis. Fusce egestas justo ut sem sollicitudin pulvinar. Nam semper mi
         sem, eget auctor orci ultrices a. Pellentesque commodo vehicula ex in sagittis. Integer eu sodales justo. Nam

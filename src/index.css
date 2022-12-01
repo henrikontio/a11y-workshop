@@ -25,7 +25,7 @@ code {
 
 .app-main {
   flex: 1 0 0;
-  color: #999;
+  color: #666;
 }
 
 .app-header {
@@ -73,7 +73,7 @@ img {
 }
 
 .img-caption {
-  font-size: 0.625em;
+  font-size: 1em;
 }
 
 .navigation {
@@ -127,5 +127,5 @@ input, select {
 }
 
 .show-more-btn {
-  color: #ff0000;
+  color: #222;
 }

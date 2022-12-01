@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import arrowRight from '../images/arrow-right.png';
+import { Helmet } from 'react-helmet';
 
 const TextInput = ({ name, value, label, onChange }) => {
   return (
@@ -105,7 +106,10 @@ const Form = () => {
           <img src={arrowRight} className={'button-icon'} />
         </button>
       </div>
-    </div>
+      <Helmet>
+        <title>a11y workshop signup form</title>
+      </Helmet>
+      </div>
   );
 };
 

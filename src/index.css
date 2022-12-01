@@ -115,3 +115,7 @@ input, select {
   margin-bottom: 1em;
   padding: 1em;
 }
+
+.show-more-btn {
+  color: #ff0000;
+}

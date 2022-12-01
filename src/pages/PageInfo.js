@@ -11,7 +11,7 @@ const Article = ({ title, ingress, additionalText }) => {
       {expanded && (
         <p>{additionalText}</p>)
       }
-      <span onClick={() => setExpanded(!expanded)}>{expanded ? "Show less..." : "Show more..."}</span>
+      <span className={'show-more-btn'} onClick={() => setExpanded(!expanded)}>{expanded ? "Show less..." : "Show more..."}</span>
     </div>
   );
 };

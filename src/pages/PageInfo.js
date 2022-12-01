@@ -11,7 +11,7 @@ const Article = ({ title, ingress, additionalText }) => {
       {expanded && (
         <p>{additionalText}</p>)
       }
-      <span className={'show-more-btn'} onClick={() => setExpanded(!expanded)}>{expanded ? "Show less..." : "Show more..."}</span>
+      <button aria-label={`Toggle additional ${title} article content`} className={'show-more-btn'} onClick={() => setExpanded(!expanded)}>{expanded ? "Show less..." : "Show more..."}</button>
     </div>
   );
 };
